@@ -34,7 +34,7 @@ function App() {
       <img src=".\images\3.switch\Screenshot (22).png" alt="" />
       <img src=".\images\3.switch\Screenshot (23).png" alt="" />
       <br />
-      4. loops:-
+      4. loops in js:-
       <br />
       <ol type="i">
         <li>
