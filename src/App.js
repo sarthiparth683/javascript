@@ -20,13 +20,13 @@ function App() {
         <img
           style={{ width: 1000 }}
           src=" .\images\1.function\2.png "
-          alt=""
+          alt=""   
         />{" "}
         <br />
         <img style={{ width: 711 }} src=".\images\1.function\3.png" alt="" />
       </span>{" "}
       <br />
-      2. if else, in JavaScript <br />
+      2. if else, in JavaScript. <br />
       <img src=".\images\2.if else\Screenshot (19).png" alt="" />
       <img src=".\images\2.if else\Screenshot (21).png" alt="" />
       <br />
