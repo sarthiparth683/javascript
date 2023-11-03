@@ -6,15 +6,16 @@ function App() {
       name: "John",
       age: 30,
       city: "New York",
-    };
+    };  
     console.log(person.name); // John
     console.log(person["age"]); // 30
   }
-  return (
+  return (  
     <div className="test">
       {functionName()}
       <span style={{ color: "blue" }}>
         {" "}
+        testing on git hub.
         <b>1. Functions in JavaScript</b> <br />
         <img style={{ width: 1000 }} src=" .\images\1.function\1.png " alt="" />
         <img
