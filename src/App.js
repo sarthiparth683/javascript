@@ -2,47 +2,21 @@ import "./App.css";
 
 function App() {
   function functionName() {
-    const person = {
-      name: "John",
-      age: 30,
-      city: "New York",
-    };  
-    console.log(person.name); // John
-    console.log(person["age"]); // 30
-  }
-  return (  
+
+  } return (
+
     <div className="test">
-      {functionName()}
-      <span style={{ color: "blue" }}>
-        {" "}
-        testing on git hub.
-        <b>1. Functions in JavaScript</b> <br />
-        <img style={{ width: 1000 }} src=" .\images\1.function\1.png " alt="" />
-        <img
-          style={{ width: 1000 }}
-          src=" .\images\1.function\2.png "
-          alt=""   
-        />{" "}
-        <br />
-        <img style={{ width: 711 }} src=".\images\1.function\3.png" alt="" />
-      </span>{" "}
-      <br />
-      2. if else, in JavaScript. <br />
-      <img src=".\images\2.if else\Screenshot (19).png" alt="" />
-      <img src=".\images\2.if else\Screenshot (21).png" alt="" />
-      <br />
-      3. switch statement in JavaScript <br />
-      <img src=".\images\3.switch\Screenshot (22).png" alt="" />
-      <img src=".\images\3.switch\Screenshot (23).png" alt="" />
-      <br />
-      4. loops in js:-
-      <br />
+
+      {functionName()}  <br />
+      
+      <span style={{ color: "blue" }}><b>1. loops in js:-</b><br /></span>
       <ol type="i">
         <li>
           for loop: The most common type of loop, which executes a block of code
           a fixed number of times.
         </li>
         <img src=".\images\4.loops\1.for loop\Screenshot (24).png" alt="" />
+        <img src=".\images\4.loops\1.for loop\2.png" alt="" />
         <img src=".\images\4.loops\1.for loop\Screenshot (25).png" alt="" />
 
         <li>
@@ -129,6 +103,22 @@ function App() {
         />
       </ol>
       <br />
+      <span style={{ color: "blue" }}>
+        <b>1. Functions in JavaScript</b> <br /> </span>
+
+      <img style={{ width: 1000 }} src=".\images\1.function\1.png " alt="" />
+      <img style={{ width: 1000 }} src=".\images\1.function\2.png " alt="" />
+      <img style={{ width: 711 }} src=".\images\1.function\3.png" alt="" /> <br />
+
+      2. if else, in JavaScript. <br />
+      <img src=".\images\2.if else\Screenshot (19).png" alt="" />
+      <img src=".\images\2.if else\Screenshot (21).png" alt="" />
+      <br />
+      3. switch statement in JavaScript <br />
+      <img src=".\images\3.switch\Screenshot (22).png" alt="" />
+      <img src=".\images\3.switch\Screenshot (23).png" alt="" />
+      <br />
+
       5. Error handeling, try catch blocks. <br />
       <img src=".\images\5.try catch\1.png" alt="" />
       <img src=".\images\5.try catch\2.png" alt="" />
@@ -321,11 +311,11 @@ function App() {
       the DOM. JavaScript can be used to:
       <br />
       <br />
-      <div style={{margin:20}} >
-      <li>Add, remove, or modify HTML elements</li>
-      <li>Change the style of HTML elements</li>
-      <li>Get or set the content of HTML elements</li>
-      <li>Respond to user events, such as clicks and mouse movements</li>
+      <div style={{ margin: 20 }} >
+        <li>Add, remove, or modify HTML elements</li>
+        <li>Change the style of HTML elements</li>
+        <li>Get or set the content of HTML elements</li>
+        <li>Respond to user events, such as clicks and mouse movements</li>
       </div>
       <br />
       <img src=".\images\12.DOM\Screenshot (68).png" alt="" />
