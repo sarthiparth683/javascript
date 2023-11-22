@@ -10,8 +10,8 @@ const MenuBar = () => {
         '1.> For loops',
         "2.> While loops",
         "3.> Do While loops",
-        "4.> For in loops",
-        "5.> for of loops",
+        "4.> for of loops :- " + "used in strings and Arrays",
+        "5.> for in loops :- " + "used in object(data types)",
         "6.> labeled loops",
         "7.> continue loops",
         "8.> Break Statement",
@@ -20,7 +20,7 @@ const MenuBar = () => {
     {
       title: '2.) Functions',
       content: [
-        'Functions.',
+        'Function has two important term , Parameter and Arguments.',
       ],
     },
     {
@@ -53,52 +53,57 @@ const MenuBar = () => {
       title: '6.) variables:- var, let, const',
       content: [
         'variables',
-        
+
       ],
     },
     {
       title: '7.) Data Types',
       content: [
-        'variables',
-        
+        '1.) strings :- in strings we have tempelate literals which is little different from strings since we can use variables or objects inside using $ signs',
+        "2.) strings are immutable",
+        "3.) Arrays are mutable",
+
       ],
     },
     {
       title: '8.) Operators',
       content: [
         'variables',
-        
+
       ],
     },
     {
       title: '9.) Ararys ',
       content: [
-        'variables',
-        
+        "1.) use to store data",
+        "2.) strings are immutable(cannot be changed)",
+        "3.) Arrays are mutable(can be changed)",
+
+
       ],
     },
     {
       title: '10.) Object  ',
       content: [
         'variables',
-        
+
       ],
     },
     {
       title: '11.) Event  ',
       content: [
         'variables',
-        
+
       ],
     },
     {
       title: '12.) DOM  ',
       content: [
         'variables',
-        
+
       ],
     },
-    
+
   ];
 
   const handleMenuItemClick = (menuItem) => {
