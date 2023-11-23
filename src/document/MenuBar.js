@@ -5,6 +5,29 @@ const MenuBar = () => {
 
   const menuItems = [
     {
+      title: '1.) variables:- var, let, const',
+      content: [
+        'variables',
+
+      ],
+    },
+    {
+      title: '2.) Data Types',
+      content: [
+        '1.) strings :- in strings we have tempelate literals which is little different from strings since we can use variables or objects inside using $ signs',
+        "2.) strings are immutable",
+        "3.) Arrays are mutable",
+ 
+      ],
+    },
+    {
+      title: '3.) Operators',
+      content: [
+        'variables',
+
+      ],
+    },
+    {
       title: '1.) Loops:-',
       content: [
         '1.> For loops',
@@ -49,29 +72,9 @@ const MenuBar = () => {
         'Nulla facilisi. Fusce faucibus dui sed sapien condimentum, quis tincidunt nisl semper.',
       ],
     },
-    {
-      title: '6.) variables:- var, let, const',
-      content: [
-        'variables',
-
-      ],
-    },
-    {
-      title: '7.) Data Types',
-      content: [
-        '1.) strings :- in strings we have tempelate literals which is little different from strings since we can use variables or objects inside using $ signs',
-        "2.) strings are immutable",
-        "3.) Arrays are mutable",
-
-      ],
-    },
-    {
-      title: '8.) Operators',
-      content: [
-        'variables',
-
-      ],
-    },
+    
+    
+   
     {
       title: '9.) Ararys ',
       content: [
