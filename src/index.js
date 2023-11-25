@@ -17,7 +17,7 @@ root.render(
     <A4Arrays></A4Arrays>
     <A5functions></A5functions>
     <h2>harry:- Tutorial #59 over. </h2> 
-    <h2>saradha khapra:-  lecture 5, over. </h2>
+    <h2>saradha khapra:-  lecture 7 is over. </h2>
     <MenuBar></MenuBar>
     <App />
   </React.StrictMode>
