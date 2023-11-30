@@ -12,4 +12,4 @@ const A5functions = () => {
     )
 }
 
-export default A5functions;
+export default A5functions; 

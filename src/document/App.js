@@ -9,7 +9,7 @@ function App() {
 
       {functionName()}  <br />
       
-      <span style={{ color: "blue" }}><b>1. loops in js:-</b><br /></span>
+      <span style={{ color: "blue" }}><b>1. loops in js:-</b><br /></span> 
       <ol type="i">
         <li>
           for loop: The most common type of loop, which executes a block of code

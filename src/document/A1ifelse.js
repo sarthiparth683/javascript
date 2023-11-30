@@ -5,7 +5,7 @@ const Practice1 = () => {
     // console.log("testing console");
 
     // if else example
-    // let age = 15; 
+    // let age = 15;  
     // if (age >= 18) {
     //     console.log("you can vote or drive");
     // }else{ 

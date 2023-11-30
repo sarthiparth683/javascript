@@ -7,7 +7,7 @@ const A4Arrays = () => {
     console.log(cars);
     return (
         <div>A4Arrays</div>
-    )
+    ) 
 }
 
 export default A4Arrays;   

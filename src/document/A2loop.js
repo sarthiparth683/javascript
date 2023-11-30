@@ -5,7 +5,7 @@ const Practice2Loops = () => {
     // for (let i = 0; i <= 5; i++) {
     //     console.log(i);  
     // } 
-
+ 
     // for (let message = 0; message <= 3; message++) {
     //     console.log("message " + message);
     // }
