@@ -131,7 +131,7 @@ const A3loopsq = () => {
         for (const key in student) {
             console.log(`${key}: ${student[key]}`);
         }
-    }
+    } 
 
     return (<>
         {/* {for1()}; */}

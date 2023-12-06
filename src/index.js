@@ -10,6 +10,7 @@ import Practice1 from './document/ifelse';
 import A4Arrays from './document/A4Arrays';
 import A5functions from './document/A5functions';
 import A6DOM from './document/A6DOM';
+import A7Eventa from './document/A7Eventa';
 import App from './document/App';
 
 
@@ -17,6 +18,7 @@ import App from './document/App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <A7Eventa></A7Eventa>
     <A1variables></A1variables>
     <A2ifelse></A2ifelse>
     <A3loopsq></A3loopsq>
