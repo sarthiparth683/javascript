@@ -9,6 +9,7 @@ const A7Eventa = () => {
 
 
     return (<div>
+        <h2><b><u>7.)Events in javascript.</u></b></h2>
         <p><b><u>Events:In React Events work in different way.</u></b></p>
         <p>node is something which is under a variable :-
             {/* {let node = document.getElementById(idName)}  so this is a node*/}

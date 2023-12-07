@@ -1,43 +1,27 @@
 import React from 'react'
 
-const A3loopsq = () => {
-    // (I.) Examples of :- for loop
+const A3_loops1 = () => {
 
-    // Example 1 :-  
     let for1 = () => {
         for (let i = 0; i <= 5; i++) {
             console.log(i);
         }
     };
 
-
-    // Example 2 :-
     let for2 = () => {
         for (let message = 0; message <= 3; message++) {
             console.log("message " + message);
         }
     };
 
-
-    // Example 3 :-
     let for3 = () => {
-        // sum of 50 numbers 
         let sum = 0;
         for (let i = 0; i <= 50; i++) {
             sum += i;
         }
         console.log(sum);
-    }
+    };
 
-
-    // (II.) While loop
-    // Formate :- 
-    // while (condition) {
-    // code to be executed repeatedly
-    // }
-
-    // Example of While loop :-
-    // Example 1.
     let while1 = () => {
         let i = 1;
         while (i <= 10) {
@@ -46,7 +30,6 @@ const A3loopsq = () => {
         }
     };
 
-    // Example 2.
     let while2 = () => {
         let numbers = [1, 2, 3, 4, 5, 6, 7];
         let i = 0;
@@ -55,9 +38,8 @@ const A3loopsq = () => {
             console.log(numbers[i]);
             i++;
         }
-    }
+    };
 
-    // Example 3. sum of numbers
     let while3 = () => {
         let sum = 0;
         let i = 1;
@@ -66,23 +48,16 @@ const A3loopsq = () => {
             i++;
         }
         console.log("sum of 1 to 10", sum);
-    }
+    };
 
-    // (III.) do while loop 
-    // formate
-    // do {
-    //     code work
-    // } while (condition);
-    // Example 1.  printing numbers from 1 to 10.
     let dowhile1 = () => {
         let i = 1;
         do {
             console.log(i);
             i++;
         } while (i <= 10);
-    }
+    };
 
-    // Example 2. Checking even or odd.
     let dowhile2 = () => {
         let number = 1;
         do {
@@ -93,23 +68,15 @@ const A3loopsq = () => {
             }
             number++;
         } while (number <= 20);
-    }
+    };
 
-    // (IV.) For of loop :- (used mostly in array and strings).
-    // syntax of (for of loop)
-    // for (variable of iterable){
-    // code to be executed
-    // }
-
-    // Example 1.
     let forof1 = () => {
         const fruits = ["apple", "banana", "PineApple", "Pomegranate", "Orange", "Litchi"];
         for (const iterator of fruits) {
             console.log("iterator " + iterator, "fruits " + fruits);
         }
-    }
+    };
 
-    // Example 2.
     let forof2 = () => {
         const sentence = "This is a sentence.";
         for (const iterator of sentence) {
@@ -118,9 +85,8 @@ const A3loopsq = () => {
             console.log("sentence" + sentence);
 
         }
-    }
+    };
 
-    //  (v.)for in loop :- used mostly in object data types.
     let forin1 = () => {
         const student = {
             name: "John Doe",
@@ -131,21 +97,39 @@ const A3loopsq = () => {
         for (const key in student) {
             console.log(`${key}: ${student[key]}`);
         }
-    } 
+    };
+
+    let forin2 = () => {
+        const fruits = ["apple", "mango", "litchi"];
+        for (let index in fruits) {
+            console.log(fruits[index]);
+        }
+    };
+
+    let forin3 = () => {
+        const message = "Welcome Everyone!";
+        for (let char in message) {
+            console.log(message[char]);
+        }
+    };
 
     return (<>
+        <h2><b><u>3.1 - loops</u></b></h2>
         {/* {for1()}; */}
         {/* {for2()}; */}
         {/* {for3()}; */}
         {/* {while1()}; */}
         {/* {while2()}; */}
         {/* {while3()}; */}
-        {/* {dowhile1()} */} 
+        {/* {dowhile1()} */}
         {/* {dowhile2()} */}
-        {/* {forof1()} */} 
+        {/* {forof1()} */}
         {/* {forof2()} */}
         {/* {forin1()} */}
+        {/* {forin2()} */}
+        {/* {forin3()} */}
+
     </>)
 };
 
-export default A3loopsq;
+export default A3_loops1;  
