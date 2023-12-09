@@ -41,8 +41,8 @@ const A3_loops2 = () => {
   return (<>
     <h2><b><u>3.2 - strings</u></b></h2>
     {/* {result()} */};
-    {tempelate()}
+    {/* {tempelate()} */}
   </>)
 }
- 
+
 export default A3_loops2;
