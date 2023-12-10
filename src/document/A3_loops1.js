@@ -3,43 +3,44 @@ import React from 'react'
 const A3_loops1 = () => {
 
     let for1 = () => {
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 2; i <= 5; i++) {
             console.log(i);
         }
     };
 
     let for2 = () => {
-        for (let message = 0; message <= 3; message++) {
+        for (let message = 2; message <= 7; message++) {
+            // console.log(message);
             console.log("message " + message);
         }
     };
 
     let for3 = () => {
         let sum = 0;
-        for (let i = 0; i <= 50; i++) {
+        for (let i = 0; i <= 5; i++) {
             sum += i;
         }
         console.log(sum);
     };
 
     let while1 = () => {
-        let i = 1;
-        while (i <= 10) {
+        let i = 2;
+        while (i <= 7) {
             console.log(i);
             i++;
+
         }
     };
 
     let while2 = () => {
         let numbers = [1, 2, 3, 4, 5, 6, 7];
-        let i = 0;
-
+        let i = 3;
         while (i < numbers.length) {
-            console.log(numbers[i]);
-            i++;
+            console.log(numbers[i]); 
+            i++; 
         }
-    };
-
+    }; 
+ 
     let while3 = () => {
         let sum = 0;
         let i = 1;
@@ -47,10 +48,10 @@ const A3_loops1 = () => {
             sum += i;
             i++;
         }
-        console.log("sum of 1 to 10", sum);
+        console.log("sum of 1 to 10 is ", sum);
     };
 
-    let dowhile1 = () => {
+    let dowhile1 = () => { 
         let i = 1;
         do {
             console.log(i);
@@ -59,7 +60,7 @@ const A3_loops1 = () => {
     };
 
     let dowhile2 = () => {
-        let number = 1;
+        let number = 10; 
         do {
             if (number % 2 === 0) {
                 console.log(number + "is even.");

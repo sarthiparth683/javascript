@@ -14,7 +14,7 @@ const A2ifelse = () => {
 
     let ternary1 = () => {
         let age = 23;
-        let drive = age >= 16 ? "yes, you can drive" : "No, you canno't drive";
+        let drive = age >= 18 ? "yes, you can drive" : "No, you canno't drive";
         console.log(drive);
     }
 
@@ -25,7 +25,7 @@ const A2ifelse = () => {
         {/* {ifelse1()} */}
 
         <p>2.Ternary Operator</p>
-        {/* {ternary1()} */}
+        {/* {ternary1()}  */}
  
     </>)
 }

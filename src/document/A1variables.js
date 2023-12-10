@@ -8,13 +8,13 @@ const A1variables = () => {
     let name4;  // undefined
     console.log(name4);
     
-  }
+  } 
 
   return (<div>
     <h2><b><u>1.Variables in javascript.</u></b></h2>
-    {variables()}   
+    {/* {variables()} */}
 
-  </div>)
+  </div>) 
 }
 
 export default A1variables; 
