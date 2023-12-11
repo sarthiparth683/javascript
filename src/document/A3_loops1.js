@@ -36,11 +36,11 @@ const A3_loops1 = () => {
         let numbers = [1, 2, 3, 4, 5, 6, 7];
         let i = 3;
         while (i < numbers.length) {
-            console.log(numbers[i]); 
-            i++; 
+            console.log(numbers[i]);
+            i++;
         }
-    }; 
- 
+    };
+
     let while3 = () => {
         let sum = 0;
         let i = 1;
@@ -51,7 +51,7 @@ const A3_loops1 = () => {
         console.log("sum of 1 to 10 is ", sum);
     };
 
-    let dowhile1 = () => { 
+    let dowhile1 = () => {
         let i = 1;
         do {
             console.log(i);
@@ -60,7 +60,7 @@ const A3_loops1 = () => {
     };
 
     let dowhile2 = () => {
-        let number = 10; 
+        let number = 10;
         do {
             if (number % 2 === 0) {
                 console.log(number + "is even.");
@@ -73,18 +73,17 @@ const A3_loops1 = () => {
 
     let forof1 = () => {
         const fruits = ["apple", "banana", "PineApple", "Pomegranate", "Orange", "Litchi"];
-        for (const iterator of fruits) {
-            console.log("iterator " + iterator, "fruits " + fruits);
+        for (const anyName of fruits) {
+            console.log("iterator " + anyName);
+            console.log("fruits " + fruits);
         }
     };
 
     let forof2 = () => {
         const sentence = "This is a sentence.";
         for (const iterator of sentence) {
-            console.log(iterator, sentence);
-            console.log("iterator" + iterator);
-            console.log("sentence" + sentence);
-
+            console.log("iterator can be anyName = " + iterator);
+            console.log("sentence = " + sentence);
         }
     };
 
@@ -96,6 +95,9 @@ const A3_loops1 = () => {
             city: "New York"
         };
         for (const key in student) {
+            console.log("key = " + key);
+            console.log("student = " + student);
+            console.log("student[key] = " + student[key]);
             console.log(`${key}: ${student[key]}`);
         }
     };
@@ -103,17 +105,21 @@ const A3_loops1 = () => {
     let forin2 = () => {
         const fruits = ["apple", "mango", "litchi"];
         for (let index in fruits) {
-            console.log(fruits[index]);
+            console.log("index = " + index);
+            console.log("fruits = " + fruits);
+            console.log("fruits of index = " + fruits[index]);
         }
     };
 
     let forin3 = () => {
         const message = "Welcome Everyone!";
         for (let char in message) {
-            console.log(message[char]);
+            console.log("char = " + char);
+            console.log("message = " + message);
+            console.log("message in character = " + message[char]);
         }
-    };
-
+    }; 
+  
     return (<>
         <h2><b><u>3.1 - loops</u></b></h2>
         {/* {for1()}; */}
