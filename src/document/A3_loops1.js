@@ -119,7 +119,7 @@ const A3_loops1 = () => {
             console.log("message in character = " + message[char]);
         }
     }; 
-  
+   
     return (<>
         <h2><b><u>3.1 - loops</u></b></h2>
         {/* {for1()}; */}
