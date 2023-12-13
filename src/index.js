@@ -11,13 +11,14 @@ import A4Arrays from './document/A4Arrays';
 import A5functions from './document/A5functions';
 import A6DOM from './document/A6DOM';
 import A7Eventa from './document/A7Eventa';
+import A11ClassObj from './document/A11Class&Obj';
+import A11Error from './document/A11Error';
 import App from './document/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
     <A1variables></A1variables>
     <A2ifelse></A2ifelse>
     <A3_loops1></A3_loops1>
@@ -27,8 +28,9 @@ root.render(
     <A5functions></A5functions>
     <A6DOM></A6DOM>
     <A7Eventa></A7Eventa>
+    <A11ClassObj></A11ClassObj>
+    <A11Error></A11Error>
     <App />
-
   </React.StrictMode>
 );
 reportWebVitals();

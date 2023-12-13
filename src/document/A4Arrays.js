@@ -31,7 +31,7 @@ const A4Arrays = () => {
     }
     return (<>
         <h2><b><u>4. - Arrays in js.</u></b></h2>
-        {array()}
+        {/* {array()} */}
     </>)
 };
 
