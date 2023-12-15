@@ -10,10 +10,9 @@ const A7Eventa = () => {
 
     return (<div>
         <h2><b><u>7.)Events in javascript.</u></b></h2>
-        <p><b><u>Events:In React Events work in different way.</u></b></p>
-        <p>node is something which is under a variable :-
-            {/* {let node = document.getElementById(idName)}  so this is a node*/}
-        </p>
+        {/* <p><b><u>Events:In React Events work in different way.</u></b></p> */}
+        {/* <p>node is something which is under a variable :- </p> */}
+        {/* {let node = document.getElementById(idName)}  so this is a node*/}
         {/* <button onClick={alert("hi") } >click me!</button> */}
         {/* <button onClick={ console.log("hello") } >button1</button> <br />
         <button onDoubleClick={console.log("hi")} >button2</button> <br />
@@ -22,7 +21,7 @@ const A7Eventa = () => {
         {/* <div onMouseOver={console.log("over")}
          style={{ color: "blue", height: "100px", border: "2px solid black" }}>this is a box</div> */}
 
-        <button id='btn1'>Button1</button>
+        {/* <button id='btn1'>Button1</button> */}
     </div>)
 }
 

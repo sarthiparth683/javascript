@@ -17,16 +17,10 @@ const A2ifelse = () => {
         let drive = age >= 18 ? "yes, you can drive" : "No, you canno't drive";
         console.log(drive);
     }
-
-
     return (<>
         <h2><b><u>2.Conditional Statements.</u></b></h2>
-        <p>1.if else</p>
         {/* {ifelse1()} */}
-
-        <p>2.Ternary Operator</p>
         {/* {ternary1()}  */}
- 
     </>)
 }
 

@@ -13,6 +13,10 @@ import A6DOM from './document/A6DOM';
 import A7Eventa from './document/A7Eventa';
 import A11ClassObj from './document/A11Class&Obj';
 import A11Error from './document/A11Error';
+import A12call from './document/A12call';
+import A12Promises from './document/A12Promises';
+import A12asyncfnc from './document/A12asyncfnc';
+import A12asyncAwait from './document/A12asyncAwait';
 import App from './document/App';
 
 
@@ -30,6 +34,10 @@ root.render(
     <A7Eventa></A7Eventa>
     <A11ClassObj></A11ClassObj>
     <A11Error></A11Error>
+    <A12call></A12call>
+    <A12Promises></A12Promises>
+    <A12asyncfnc></A12asyncfnc>
+    <A12asyncAwait></A12asyncAwait>
     <App />
   </React.StrictMode>
 );
