@@ -17,6 +17,7 @@ import A12call from './document/A12call';
 import A12Promises from './document/A12Promises';
 import A12asyncfnc from './document/A12asyncfnc';
 import A12asyncAwait from './document/A12asyncAwait';
+import A13fetchApi from './document/A13fetchApi';
 import App from './document/App';
 
 
@@ -38,6 +39,7 @@ root.render(
     <A12Promises></A12Promises>
     <A12asyncfnc></A12asyncfnc>
     <A12asyncAwait></A12asyncAwait>
+    <A13fetchApi></A13fetchApi>
     <App />
   </React.StrictMode>
 );
