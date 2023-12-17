@@ -38,42 +38,7 @@ const A13fetchApi = () => {
         {/* <button id="btn">Get a fact</button> */}
         {/* {fetch1()}  */}
          {/* {fetch2()}  */}
-        <div className="container">
-            <h2>Currency Converter</h2>
-            <form>
-                <div className="amount">
-                    <p>Enter Amount</p>
-                    <input value="100" type="text" />
-                </div>
-                <div className="dropdown">
-                    <div className="from">
-                        <p>From</p>
-                        <div className="select-container">
-                            <img src="https://flagsapi.com/US/flat/64.png" alt="" />
-                            <select name="from" >
-                                <option value="USD">USD</option>
-                                <option value="USD">INR</option>
-                                <option value="EUR">EUR</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div className="to">
-                        <div className="select-container">
-                            <img src="https://flagsapi.com/IN/flat/64.png" alt="" />
-                            <select name="from" >
-                                <option value="USD">USD</option>
-                                <option value="USD">INR</option>
-                                <option value="EUR">EUR</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div className="msg">1USD = 80INR</div>
-                <button>Get Exchange Rate</button>
-            </form>
-        </div>
+       
        
     </>)
 }
