@@ -7,14 +7,14 @@ const A1variables = () => {
     const name3 = "const variable:- cannot be re-declared or updated, it's a block scope variable."; console.log(name3);
     let name4;  // undefined
     console.log(name4);
-    
+     
   } 
 
   return (<div>
-    <h2><b><u>1.Variables in javascript.</u></b></h2>
+    <h2><b><u>1.Variables in javascript.45</u></b></h2>
     {/* {variables()} */}
-
+ 
   </div>) 
-}
-
+}  
+ 
 export default A1variables; 

@@ -3,24 +3,39 @@ import React from 'react'
 const A3_loops1 = () => {
 
     let for1 = () => {
-        for (let i = 2; i <= 5; i++) {
-            console.log(i);
+        const numbers = [5, 1, 8, 3, 2];
+        let smallest = numbers[0];
+
+        for (let i = 1; i < numbers.length; i++) {
+            if (numbers[i] < smallest) {
+                smallest = numbers[i];
+            }
         }
+
+        console.log(smallest); // Prints 1
+
     };
 
     let for2 = () => {
-        for (let message = 2; message <= 7; message++) {
-            // console.log(message);
+        for (let message = 7; message >= 1; message--) {
+            // console.log(message);  
             console.log("message " + message);
         }
     };
 
     let for3 = () => {
-        let sum = 0;
+        // let sum = 0;
         for (let i = 0; i <= 5; i++) {
-            sum += i;
+            console.log(i);
+            // sum += i; 
         }
-        console.log(sum);
+        // console.log(sum); 
+    };
+
+    let for4 = () => {
+        for (let i = 0; i < 21; i += 3) {
+            console.log(i);
+        }
     };
 
     let while1 = () => {
@@ -82,32 +97,56 @@ const A3_loops1 = () => {
     let forof2 = () => {
         const sentence = "This is a sentence.";
         for (const iterator of sentence) {
-            console.log("iterator can be anyName = " + iterator);
-            console.log("sentence = " + sentence);
+            console.log("1 iterator can be anyName = " + iterator);
+            console.log("2 sentence = " + sentence);
         }
+    };
+
+    let forof3 = () => {
+        const fruits = ["apple", "banana", "cherry"];
+
+        for (const anyname of fruits) {
+            console.log("1" + anyname); // individual name in array
+            console.log("2" + fruits); // show full array  
+        }
+
+    };
+
+    let forof4 = () => {
+        const names = ["Alice", "Bob", "Charlie"];
+        const ages = [25, 30, 20];
+        const personInfo = {};
+
+        for (const i in names) {
+            personInfo[names[i]] = ages[i];
+        }
+
+        console.log(personInfo); // Output: { Alice: 25, Bob: 30, Charlie: 20 }
+
+
     };
 
     let forin1 = () => {
         const student = {
-            name: "John Doe",
-            age: 25,
+            name: "Parth Sarthi",
+            age: 45,
             major: "Computer Science",
             city: "New York"
         };
         for (const key in student) {
-            console.log("key = " + key);
-            console.log("student = " + student);
-            console.log("student[key] = " + student[key]);
-            console.log(`${key}: ${student[key]}`);
+            console.log("1 key = " + key);
+            console.log("2 student = " + student);
+            console.log("3 student[key] = " + student[key]);
+            console.log(`4 ${key}: ${student[key]}`);
         }
     };
 
     let forin2 = () => {
         const fruits = ["apple", "mango", "litchi"];
-        for (let index in fruits) {
-            console.log("index = " + index);
-            console.log("fruits = " + fruits);
-            console.log("fruits of index = " + fruits[index]);
+        for (let anyname in fruits) {
+            console.log("1 index = " + anyname);
+            console.log("2 fruits = " + fruits);
+            console.log("3 fruits of index = " + fruits[anyname]);
         }
     };
 
@@ -118,13 +157,27 @@ const A3_loops1 = () => {
             console.log("message = " + message);
             console.log("message in character = " + message[char]);
         }
-    }; 
-   
+    };
+
+    let forin4 = () => {
+        const name = "Bard";
+
+        for (const key in name) {
+            // console.log(key);  
+            // console.log(name);
+            console.log(key, name[key].charCodeAt(0)); 
+        }
+    };
+
+
+
+
     return (<>
         <h2><b><u>3.1 - loops</u></b></h2>
-        {/* {for1()}; */}
+        {/* {for1()};  */}
         {/* {for2()}; */}
         {/* {for3()}; */}
+        {/* {for4()}; */}
         {/* {while1()}; */}
         {/* {while2()}; */}
         {/* {while3()}; */}
@@ -132,9 +185,12 @@ const A3_loops1 = () => {
         {/* {dowhile2()} */}
         {/* {forof1()} */}
         {/* {forof2()} */}
+        {/* {forof3()} */}
+        {/* {forof4()} */}
         {/* {forin1()} */}
         {/* {forin2()} */}
         {/* {forin3()} */}
+        {/* {forin4()} */}
 
     </>)
 };

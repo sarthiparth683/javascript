@@ -5,14 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import A1variables from './document/A1variables';
 import A2ifelse from './document/A2ifelse';
 import A3_loops1 from './document/A3_loops1';
-import A3_loops2 from './document/A3_loops2';
+import A3_string from './document/A3_string';
 import Practice1 from './document/ifelse';
 import A4Arrays from './document/A4Arrays';
 import A5functions from './document/A5functions';
 import A6DOM from './document/A6DOM';
 import A7Eventa from './document/A7Eventa';
 import A11ClassObj from './document/A11Class&Obj';
-import A11Error from './document/A11Error';
+import A11Error from './document/A11Error'; 
 import A12call from './document/A12call';
 import A12Promises from './document/A12Promises';
 import A12asyncfnc from './document/A12asyncfnc';
@@ -27,7 +27,7 @@ root.render(
     <A1variables></A1variables>
     <A2ifelse></A2ifelse>
     <A3_loops1></A3_loops1>
-    <A3_loops2></A3_loops2>
+<A3_string></A3_string>
     <Practice1></Practice1>
     <A4Arrays></A4Arrays>
     <A5functions></A5functions>
