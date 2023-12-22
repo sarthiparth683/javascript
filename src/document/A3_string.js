@@ -3,7 +3,7 @@ import React from 'react'
 const A3_string = () => {
     let result = () => {
 
-        let str1 = "                                                Parth Sarth i                            ";
+        let str1 = "Parth Sarthi";
         let str2 = "is a Learning.";
         let result1 = str1.length;
         let result2 = str1[0];//string indices.
@@ -44,7 +44,7 @@ const A3_string = () => {
     return (
         <>
             <h2><b><u>A3.2 - strings</u></b></h2>
-            {result()}
+            {/* {result()} */}
             {/* {tempelate()}    */}
         </>
     )
