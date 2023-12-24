@@ -165,13 +165,33 @@ const A3_loops1 = () => {
         for (const key in name) {
             // console.log(key);  
             // console.log(name);
-            console.log(key, name[key].charCodeAt(0)); 
+            console.log(key, name[key].charCodeAt(0));
         }
     };
 
+    let foreach1 = () => {
+        const numbers = [1, 2, 3, 4, 5];
+        numbers.forEach(number => number *= 2);
+        console.log(numbers); // Output: [2, 4, 6, 8, 10]
 
+    }
 
+    let foreach2 = () => {
+        const scores = [75, 92, 88, 65];
+        let highestScore = 0;
+        scores.forEach(score => { 
+            if (score > highestScore) highestScore = score;
+        });
+        console.log(highestScore); // Output: 92
 
+    }
+
+    let foreach3 = () => {
+        const numbers = [1, 2, 3, 4, 5];
+        const squaredNumbers = numbers.map(number => number * number);
+        console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+
+    }
     return (<>
         <h2><b><u>3.1 - loops</u></b></h2>
         {/* {for1()};  */}
@@ -191,6 +211,9 @@ const A3_loops1 = () => {
         {/* {forin2()} */}
         {/* {forin3()} */}
         {/* {forin4()} */}
+        {/* {foreach1()} */}
+        {/* {foreach2()} */}
+        {/* {foreach3()} */}
 
     </>)
 };

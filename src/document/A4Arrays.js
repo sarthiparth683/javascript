@@ -19,7 +19,7 @@ const A4Arrays = () => {
         // Result in console
         console.log("result 1 " + "cars[0]" + "=" + " " + result1);
         console.log("result 2 " + "cars[1] " + "=" + " " + result2);
-        console.log("result 3 " + "cars[2] " + "=" + " " + result3); 
+        console.log("result 3 " + "cars[2] " + "=" + " " + result3);
         console.log("result 4 " + "cars.push() " + "=" + " " + result4);
         console.log("result 4a " + "cars.push() " + "=" + " " + result4a);
         // console.log("result 5 " + "cars.pop() " + "=" + " " + result5);
@@ -29,10 +29,78 @@ const A4Arrays = () => {
         console.log("result 9 " + "cars.shift() " + "=" + " " + result9);
         console.log("result 10 " + "cars.slice(1, 4)" + "=" + " " + result10);
         console.log("result 11 " + "cars.splice(0, 2)" + "=" + " " + result11);
-    }
+    };
+
+    let arrayMap1 = () => {
+        const numbers = [1, 2, 3, 4];
+        const doubledNumbers = numbers.map(number => number * 2);
+        console.log(doubledNumbers);
+    };
+
+    let arrayMap2 = () => {
+        const numbers = [1, 2, 3, 4];
+        const stringNumbers = numbers.map(number => number.toString());
+        console.log(stringNumbers);
+
+    };
+
+    let arrayMap3 = () => {
+        const words = ["apple", "banana", "cherry"];
+        const firstLetters = words.map(word => word[0]);
+        console.log(firstLetters);
+    };
+
+    let arrayFilter2 = () => {
+        const names = ["Alice", "Bob", "Charlie", "David"];
+        const namesWith5Letters = names.filter(name => name.length === 5);
+        console.log(namesWith5Letters);
+
+    };
+
+    let arrayFilter3 = () => {
+        const numbers = [-2, 5, 0, -4, 10];
+        const negativeNumbers = numbers.filter(number => number < 0);
+        console.log(negativeNumbers);
+
+    };
+
+    let arrayReduce1 = () => {
+        const numbers = [4, 6, 8, 10];
+        const allEven = numbers.reduce((accumulator, currentValue) => accumulator && currentValue % 2 === 0, true);
+        console.log(allEven); // Output: true
+
+    };
+
+    let arrayReduce2 = () => {
+        const numbers = [1, 2, 3, 4, 5];
+        const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+        console.log(sum); // Output: 15
+
+    };
+
+    let arrayReduce3 = () => {
+        const numbers = [1, 2, 3, 4, 5];
+        const doubledNumbers = numbers.reduce((accumulator, currentValue) => {
+            accumulator.push(currentValue * 2);
+            return accumulator;
+        }, []);
+        console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
+
+    };
+
+
     return (<>
         <h2><b><u>4. - Arrays in js.</u></b></h2>
-        {array()}
+        {/* {array()} */}
+        {/* {arrayMap1()}  */}
+        {/* {arrayMap2()} */}
+        {/* {arrayMap3()} */}
+        {/* {arrayFilter2()} */}
+        {/* {arrayFilter3()} */}
+        {/* {arrayReduce1()} */}
+        {/* {arrayReduce2()} */}
+        {/* {arrayReduce3()} */}
+
     </>)
 };
 
