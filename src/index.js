@@ -18,7 +18,7 @@ import A12Promises from './document/A12Promises';
 import A12asyncfnc from './document/A12asyncfnc';
 import A12asyncAwait from './document/A12asyncAwait';
 import A13fetchApi from './document/A13fetchApi';
-import App from './document/App';
+// import App from './document/App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,6 +39,6 @@ root.render(<>
   <A12asyncfnc></A12asyncfnc>
   <A12asyncAwait></A12asyncAwait>
   <A13fetchApi></A13fetchApi>
-  <App />
+  {/* <App /> */}
 </>);
 reportWebVitals();

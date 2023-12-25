@@ -12,7 +12,7 @@ const A5functions = () => {
         outer();
     };
     return (<>
-        <h2><b><u>5.Function in js.</u></b></h2>
+        <h2><b><u>5. Function in js.</u></b></h2>
         {/* {fnc1()} */}
     </>)
 }
