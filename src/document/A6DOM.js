@@ -20,15 +20,28 @@ const A6DOM = () => {
     }
   };
 
+  let domTag1 = () => {
+    let paragraphs = document.getElementsByTagName("p");
+
+    for (let i = 0; i < paragraphs.length; i++) {
+      paragraphs[i].style.backgroundColor = "lightblue";
+    }
+    
+  };
 
   return (<>
     <h2><b><u>5. DOM</u></b></h2>
-    <p id="demo">This is a paragraph.</p>
-    <button className='important'>Button</button>
+    <p id="id => demo">This is a paragraph.</p>
+    <button className='class => important'>Button</button>
+    <p>This is the second paragraph.</p>
+    <p>This is the third paragraph.</p>
+
+
     {/* {domId1()} */}
     {/* {domId2()} */}
     {/* {domClass1()} */}
-    
+    {/* {domTag1()} */}
+
   </>)
 }
 
