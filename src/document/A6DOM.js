@@ -22,10 +22,17 @@ const A6DOM = () => {
 
   let domTag1 = () => {
     let paragraphs = document.getElementsByTagName("p");
-
     for (let i = 0; i < paragraphs.length; i++) {
       paragraphs[i].style.backgroundColor = "lightblue";
     }
+  };
+
+  let domQuery1 = () => {
+    const myParagraph = document.querySelector("#myParagraph");
+    myParagraph.textContent = "This text has been changed using JavaScript!";
+  };
+
+  let QuerAll1 = () => {
     
   };
 
@@ -35,13 +42,14 @@ const A6DOM = () => {
     <button className='class => important'>Button</button>
     <p>This is the second paragraph.</p>
     <p>This is the third paragraph.</p>
-
+    <p id='myParagraph' >ayushman Paragraph</p>
 
     {/* {domId1()} */}
     {/* {domId2()} */}
     {/* {domClass1()} */}
     {/* {domTag1()} */}
-
+    {/*{domQuery1()}*/}
+     {/*{QueryAll1()}*/}
   </>)
 }
 
