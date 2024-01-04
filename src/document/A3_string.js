@@ -43,7 +43,7 @@ const A3_string = () => {
 
     return (
         <>
-            <h2><b><u>A3.2 - strings</u></b></h2>
+            {/* <h2><b><u>A3.2 - strings</u></b></h2> */}
             {/* {result()} */}
             {/* {tempelate()}    */}
         </>

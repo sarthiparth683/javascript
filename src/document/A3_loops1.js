@@ -193,7 +193,7 @@ const A3_loops1 = () => {
 
     }
     return (<>
-        <h2><b><u>3.1 - loops</u></b></h2>
+        <h2><b><u>3.loops</u></b></h2>
         {/* {for1()};  */}
         {/* {for2()}; */}
         {/* {for3()}; */}

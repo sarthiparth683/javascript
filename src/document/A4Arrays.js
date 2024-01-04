@@ -90,7 +90,7 @@ const A4Arrays = () => {
 
 
     return (<>
-        <h2><b><u>4. - Arrays in js.</u></b></h2>
+        <h2><b><u>4.Arrays</u></b></h2>
         {/* {array()} */}
         {/* {arrayMap1()}  */}
         {/* {arrayMap2()} */}

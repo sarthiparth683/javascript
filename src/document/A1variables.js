@@ -11,7 +11,7 @@ const A1variables = () => {
   } 
 
   return (<div>
-    <h2><b><u>1.Variables in javascript.45</u></b></h2>
+    <h2><b><u>1.Variables</u></b></h2>
     {/* {variables()} */}
  
   </div>) 

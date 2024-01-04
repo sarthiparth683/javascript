@@ -37,12 +37,12 @@ const A6DOM = () => {
   };
 
   return (<>
-    <h2><b><u>5. DOM</u></b></h2>
-    <p id="id => demo">This is a paragraph.</p>
+    <h2><b><u>6.DOM</u></b></h2>
+    {/* <p id="id => demo">This is a paragraph.</p>
     <button className='class => important'>Button</button>
     <p>This is the second paragraph.</p>
     <p>This is the third paragraph.</p>
-    <p id='myParagraph' >ayushman Paragraph</p>
+    <p id='myParagraph' >ayushman Paragraph</p> */}
 
     {/* {domId1()} */}
     {/* {domId2()} */}
